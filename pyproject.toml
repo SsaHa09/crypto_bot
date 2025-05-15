@@ -4,4 +4,11 @@ version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "apscheduler==3.11.0",
+    "django-tracking2>=0.5.1",
+    "pandas==2.2.3",
+    "python-telegram-bot-calendar==1.0.5",
+    "requests==2.32.3",
+    "telegram>=0.0.1",
+]
