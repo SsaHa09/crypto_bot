@@ -1,0 +1,9 @@
+services:
+- type: worker
+  name: crypto-telegram-bot
+  env: python
+  repo: https://github.com/SsaHa09/crypto_bot
+  branch: main
+  buildCommand: "pip install -r requirements.txt"
+  startCommand: "python main.py"
+  autoDeploy: true
